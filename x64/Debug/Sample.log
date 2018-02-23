@@ -1,0 +1,36 @@
+﻿  Utils.cpp
+  sample.cpp
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\sample.cpp(3482): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\sample.cpp(3482): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\sample.cpp(3744): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\sample.cpp(3745): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\sample.cpp(3746): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\sample.cpp(3751): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\sample.cpp(3752): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\sample.cpp(3753): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\sample.cpp(3762): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\sample.cpp(3763): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\sample.cpp(3764): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\sample.cpp(3769): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\sample.cpp(3770): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\sample.cpp(3771): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\sample.cpp(3780): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\sample.cpp(3781): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\sample.cpp(3782): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\sample.cpp(3787): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\sample.cpp(3788): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\sample.cpp(3789): warning C4305: '+=': truncation from 'double' to 'float'
+  LoadObjFile.cpp
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\loadobjfile.cpp(115): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\loadobjfile.cpp(118): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\loadobjfile.cpp(121): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\loadobjfile.cpp(140): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\loadobjfile.cpp(143): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\loadobjfile.cpp(146): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\loadobjfile.cpp(160): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\loadobjfile.cpp(164): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\loadobjfile.cpp(168): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\loadobjfile.cpp(249): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\zach\google drive\school\college\aaa current term\cs 419 vulkan\project3\code\loadobjfile.cpp(96): warning C4101: 'token': unreferenced local variable
+  Generating Code...
+LINK : fatal error LNK1158: cannot run 'rc.exe'

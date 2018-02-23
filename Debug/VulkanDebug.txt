@@ -1,0 +1,145 @@
+FpDebug: Width = 1024 ; Height = 1024
+
+***** InitGraphics *****
+
+***** Init01Instance *****
+vkEnumerateInstanceLayerProperties: Successful
+
+14 instance layers enumerated:
+0x00400041   2  'VK_LAYER_LUNARG_api_dump'  'LunarG debug layer'
+0x00400041   1  'VK_LAYER_LUNARG_core_validation'  'LunarG Validation Layer'
+0x00400041   1  'VK_LAYER_LUNARG_device_simulation'  'LunarG device simulation layer'
+0x00400041   1  'VK_LAYER_LUNARG_monitor'  'Execution Monitoring Layer'
+0x00400041   1  'VK_LAYER_LUNARG_object_tracker'  'LunarG Validation Layer'
+0x00400041   1  'VK_LAYER_LUNARG_parameter_validation'  'LunarG Validation Layer'
+0x00400041   1  'VK_LAYER_LUNARG_screenshot'  'LunarG image capture layer'
+0x00400041   1  'VK_LAYER_LUNARG_standard_validation'  'LunarG Standard Validation'
+0x00400041   1  'VK_LAYER_GOOGLE_threading'  'Google Validation Layer'
+0x00400041   1  'VK_LAYER_GOOGLE_unique_objects'  'Google Validation Layer'
+0x00400041   1  'VK_LAYER_LUNARG_vktrace'  'Vktrace tracing library'
+0x00400041   1  'VK_LAYER_NV_optimus'  'NVIDIA Optimus layer'
+0x00400000  91  'VK_LAYER_RENDERDOC_Capture'  'Debugging capture layer for RenderDoc'
+0x00400003   1  'VK_LAYER_VALVE_steam_overlay'  'Steam Overlay Layer'
+vkEnumerateInstanceExtensionProperties: Successful
+
+11 extensions enumerated:
+0x00000009  'VK_EXT_debug_report'
+0x00000001  'VK_EXT_display_surface_counter'
+0x00000001  'VK_KHR_get_physical_device_properties2'
+0x00000001  'VK_KHR_get_surface_capabilities2'
+0x00000019  'VK_KHR_surface'
+0x00000006  'VK_KHR_win32_surface'
+0x00000001  'VK_KHX_device_group_creation'
+0x00000001  'VK_KHR_external_fence_capabilities'
+0x00000001  'VK_KHR_external_memory_capabilities'
+0x00000001  'VK_KHR_external_semaphore_capabilities'
+0x00000001  'VK_NV_external_memory_capabilities'
+vkCreateInstance: Successful
+glfwCreateWindowSurface: Successful
+
+***** Init02CreateDebugCallbacks *****
+
+***** Init03PhysicalDeviceAndGetQueueFamilyProperties *****
+vkEnumeratePhysicalDevices - 1: Successful
+
+1 physical devices found.
+vkEnumeratePhysicalDevices - 2: Successful
+ 
+
+Device  0:
+	API version: 4194369
+	Driver version: 4194369
+	Vendor ID: 0x10de
+	Device ID: 0x13c2
+	Physical Device Type: 2 = (Discrete GPU)
+	Device Name: GeForce GTX 970
+	Pipeline Cache Size: 240
+Device #0 selected ('GeForce GTX 970')
+
+Physical Device Features:
+geometryShader =  1
+tessellationShader =  1
+multiDrawIndirect =  1
+wideLines =  1
+largePoints =  1
+multiViewport =  1
+occlusionQueryPrecise =  1
+pipelineStatisticsQuery =  1
+shaderFloat64 =  1
+shaderInt64 =  1
+shaderInt16 =  0
+
+Image Formats Checked:
+Format VK_FORMAT_R32G32B32A32_SFLOAT: 0x0001d401 0x0001dd83  0x00000058
+Format VK_FORMAT_R8G8B8A8_UNORM: 0x0001d401 0x0001dd83  0x00000058
+Format VK_FORMAT_B8G8R8A8_UNORM: 0x0001d401 0x0001dd83  0x00000058
+
+11 Memory Types:
+Memory  0: 
+Memory  1: 
+Memory  2: 
+Memory  3: 
+Memory  4: 
+Memory  5: 
+Memory  6: 
+Memory  7:  DeviceLocal
+Memory  8:  DeviceLocal
+Memory  9:  HostVisible HostCoherent
+Memory 10:  HostVisible HostCoherent HostCached
+
+2 Memory Heaps:
+Heap 0:  size = 0xfcb80000 DeviceLocal
+Heap 1:  size = 0xfbb00000
+
+Found 2 Queue Families:
+	0: queueCount = 16  ;    Graphics Compute  Transfer
+	1: queueCount =  1  ;    Transfer
+
+***** Init04LogicalDeviceAndQueue *****
+vkEnumerateDeviceLayerProperties: Successful
+
+3 physical device layers enumerated:
+0x00400041   1  'VK_LAYER_NV_optimus'  'NVIDIA Optimus layer'
+	0 device extensions enumerated for 'VK_LAYER_NV_optimus':
+
+0x00400041   1  'VK_LAYER_LUNARG_object_tracker'  'LunarG Validation Layer'
+	1 device extensions enumerated for 'VK_LAYER_LUNARG_object_tracker':
+	0x00000004  'VK_EXT_debug_marker'
+
+0x00400041   1  'VK_LAYER_LUNARG_parameter_validation'  'LunarG Validation Layer'
+	1 device extensions enumerated for 'VK_LAYER_LUNARG_parameter_validation':
+	0x00000004  'VK_EXT_debug_marker'
+
+vkCreateLogicalDevice: Successful
+
+***** Init05DataBuffer *****
+vkCreateBuffer: Successful
+Buffer vmr.size = 256
+Buffer vmr.alignment = 256
+Buffer vmr.memoryTypeBits = 0x00000681
+vkAllocateMemory: Successful
+vkBindBufferMemory: Successful
+
+***** Init05DataBuffer *****
+vkCreateBuffer: Successful
+Buffer vmr.size = 256
+Buffer vmr.alignment = 256
+Buffer vmr.memoryTypeBits = 0x00000681
+vkAllocateMemory: Successful
+vkBindBufferMemory: Successful
+
+***** Init05DataBuffer *****
+vkCreateBuffer: Successful
+Buffer vmr.size = 256
+Buffer vmr.alignment = 256
+Buffer vmr.memoryTypeBits = 0x00000681
+vkAllocateMemory: Successful
+vkBindBufferMemory: Successful
+
+***** Init05DataBuffer *****
+vkCreateBuffer: Successful
+Buffer vmr.size = 0
+Buffer vmr.alignment = 256
+Buffer vmr.memoryTypeBits = 0x00000681
+
+vkAllocateMemory: Out of Device Memory
